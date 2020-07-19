@@ -65,8 +65,11 @@
                                 <input class="btn" type="submit" name="" value="Apply">
                             </form></td>
                     </tr>
-                    <?php }}else{ ?>
-                        No Jobs Found!
+                    <?php }}
+                    else{ ?>
+                        <tr>
+                        <th>No Jobs Found!</th>
+                        </tr>
                     <?php } ?>
                 </table>
             </div>
